@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#link-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.category {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.category h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    display: grid; /* 使用 Grid 布局 */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 响应式列 */
+    gap: 15px; /* 链接之间的间隙 */
+}
+
+.link-list li {
+    /* 不需要单独的样式，由 Grid 控制 */
+}
+
+.link-list a {
+    display: flex; /* 让图标和文字对齐 */
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden; /* 防止内容溢出 */
+    text-overflow: ellipsis; /* 文本溢出显示省略号 */
+    white-space: nowrap; /* 防止文本换行 */
+}
+
+.link-list a:hover {
+    background-color: #e9ecef;
+    color: #0056b3;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.link-icon {
+    width: 16px; /* 图标大小 */
+    height: 16px;
+    margin-right: 8px; /* 图标和文字的间距 */
+    vertical-align: middle; /* (如果不用 flex) 垂直居中 */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* 简单的响应式 */
+@media (max-width: 600px) {
+    .link-list {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* 在小屏幕上列更窄 */
+    }
+    body {
+        padding: 10px;
+    }
+}
