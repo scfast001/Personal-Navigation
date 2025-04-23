@@ -50,3 +50,4 @@
 * 实现主题切换 (亮色/暗色)。
 * 使用更高级的前端框架 (React, Vue, Svelte) 或构建工具 (Vite, Webpack)。
 * 如果需要动态功能，迁移到 Cloudflare Workers。
+## 📄 许可证
