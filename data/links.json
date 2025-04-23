@@ -1,0 +1,24 @@
+[
+  {
+    "category": "常用网站",
+    "links": [
+      { "name": "Google", "url": "https://www.google.com", "icon": "assets/google.png" },
+      { "name": "GitHub", "url": "https://github.com", "icon": "assets/github.png" },
+      { "name": "Cloudflare", "url": "https://dash.cloudflare.com/", "icon": "assets/cloudflare.png"}
+    ]
+  },
+  {
+    "category": "开发工具",
+    "links": [
+      { "name": "VS Code", "url": "https://code.visualstudio.com/" },
+      { "name": "Stack Overflow", "url": "https://stackoverflow.com/" }
+    ]
+  },
+  {
+    "category": "设计资源",
+    "links": [
+      { "name": "Unsplash", "url": "https://unsplash.com/" },
+      { "name": "Figma", "url": "https://www.figma.com/" }
+    ]
+  }
+]
