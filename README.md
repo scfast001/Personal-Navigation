@@ -51,3 +51,6 @@
 * 使用更高级的前端框架 (React, Vue, Svelte) 或构建工具 (Vite, Webpack)。
 * 如果需要动态功能，迁移到 Cloudflare Workers。
 ## 📄 许可证
+
+MIT License
+Copyright (c) 2025 scfast001
